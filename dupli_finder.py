@@ -37,9 +37,11 @@ print("List of words and their occurrences:",counts)
 
 
 print("There are a total of",total1,"words.")
-print("There are",total2,"duplicated words.")
+print("There are",total2,"duplicated words.\n")
 
 if counts2 == 0:
     print("Congratulations, there are no duplicates.")
 else:
     print("List of words that occurred more than once:",counts2)
+
+pause1 = input("Press enter to continue.")
